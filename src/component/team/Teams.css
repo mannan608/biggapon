@@ -1,0 +1,49 @@
+.circles {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #9d9d9d;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.circles.facebook:hover svg path {
+  fill: #087beb;
+}
+.circles.linkendin:hover svg path {
+  fill: #007bb5;
+}
+.circles:hover {
+  transition: 0.4s ease-in;
+}
+.team .row {
+  margin: 0 -14px;
+}
+.team .row .col-lg-4 {
+  padding: 0 14px;
+}
+.team-img {
+  border-radius: 50%;
+  width: 270px;
+  height: 270px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  padding-top: 20px;
+  overflow: hidden;
+}
+.team-img img {
+  width: auto;
+  height: auto;
+}
+
+.team-bg-1 {
+  background: #ffe292;
+}
+.team-bg-2 {
+  background: #eafaff;
+}
+.team-bg-3 {
+  background: #f3edff;
+}

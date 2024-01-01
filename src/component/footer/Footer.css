@@ -1,0 +1,36 @@
+.footer-logo {
+  width: 187px;
+  height: 38px;
+}
+
+.footer ul li .item-link:hover {
+  font-weight: 500;
+  color: var(--bs-neutral-600);
+}
+.footer ul li .circles {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  border: 1px solid #9d9d9d;
+  background: #f8f8f8;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.footer ul li .circles:hover {
+  transition: 0.4s ease-in;
+}
+.footer ul li .circles.facebook:hover svg path {
+  fill: #087beb;
+}
+
+.footer ul li .circles.linkendin:hover svg path {
+  fill: #007bb5;
+}
+
+.footer ul li .circles.twitter:hover svg path {
+  fill: #1da1f2;
+}
+.footer-bottom {
+  margin: 0px 0 24px 0;
+}

@@ -1,0 +1,59 @@
+.service-wrapper {
+  margin-top: 34px;
+}
+.service .row {
+  margin: 0 -11px;
+  position: relative;
+  row-gap: 22px;
+}
+.service .row .col-lg-4 {
+  padding: 0 11px;
+}
+.service .card {
+  padding: 50px 20px 35px 40px;
+  border: 1px solid var(--bs-neutral-200);
+  border-radius: 10px;
+  cursor: pointer;
+  transition: all 0.4s;
+}
+.service .card img {
+  width: auto;
+  height: auto;
+}
+.service .btn-link {
+  padding: 0;
+  min-width: fit-content;
+}
+.service .card:hover {
+  box-shadow: 0px 30px 20px rgba(0, 0, 0, 0.05);
+}
+.services .row {
+  margin: 0 -50px;
+}
+
+/* Service Page */
+.services .row .col-5,
+.services .row .col-7 {
+  padding: 0 50px;
+}
+.services .row:nth-child(even) {
+  flex-direction: row-reverse;
+}
+.service-contents .list-item::before {
+  content: url("../../assets/images/list_check.svg");
+  display: inline-block;
+  height: 24px;
+}
+.service-contents .list-item {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+.services-wrapper .services {
+  gap: 140px;
+  padding: 0 40px;
+}
+.services-wrapper {
+  margin-bottom: 104px;
+}
+/* Service Page */

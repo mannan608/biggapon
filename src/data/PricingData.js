@@ -1,0 +1,57 @@
+const data = [
+  {
+    id: 1,
+    title: "Starter",
+    plan: "Free",
+    image: "images/plan_icon.svg",
+    description: "For Individuals and Small Teams",
+    items: [
+      "Welcome Audit",
+      "Business Model",
+      "Social Page",
+      "Website",
+      "Ad Campaingn",
+      "Sales and Marketing Funnel",
+    ],
+  },
+  {
+    id: 2,
+    title: "Individual",
+    plan: "Popular",
+    image: "images/plan_icon.svg",
+    description: "For Individuals and Small Teams",
+    items: [
+      "Product Research",
+      "Store design and development",
+      "Digital Content",
+      " Sales Funnel Creation",
+      "Facebook Ad Account",
+      " Facebook Campaign Management",
+      "Google Ad Campaign",
+      " Data Tracking",
+      "Web Analytices",
+      "Packaging",
+    ],
+  },
+  {
+    id: 3,
+    title: "Business",
+    plan: "Multiple",
+    image: "images/plan_icon.svg",
+    description: "For Individuals and Small Teams",
+    items: [
+      "Digital Sales and Lead Generation",
+      "Product Research",
+      "Store design and development",
+      "Digital Content",
+      "Sales Funnel Creation",
+      "Facebook Ad Campaign",
+      "Google Ad Campaign",
+      "Data Tracking",
+      "Web Analytices",
+      "Packaging",
+    ],
+  },
+];
+
+export default data;

@@ -1,0 +1,30 @@
+.patner-wrapper {
+  padding: 64px 0;
+}
+.patner {
+  width: 1252px;
+  height: 77px;
+  justify-content: space-between;
+  margin: 0 auto;
+}
+.patner-logo {
+  width: fit-content;
+  cursor: pointer;
+}
+.patner a .patner-logo img {
+  height: 40px;
+  width: auto;
+}
+.patner a .patner-logo .prt_hover_logo {
+  display: none;
+  transition: 0.5s all ease-in-out;
+}
+
+.patner a .patner-logo:hover > .prt_hover_logo {
+  display: block;
+  transition: 0.5s all ease-in-out;
+}
+.patner a .patner-logo:hover > .prt_logo {
+  display: none;
+  transition: 0.5s all ease-in-out;
+}

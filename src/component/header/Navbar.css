@@ -1,0 +1,41 @@
+.navbar-menu .navbar-nav .nav-item .nav-link:hover,
+.navbar-menu .navbar-nav .nav-item .nav-link.active {
+  position: relative;
+  color: var(--bs-primary-600);
+}
+.navbar-menu .navbar-nav .nav-item .nav-link {
+  color: var(--text-secondary-dark);
+  font-weight: 400;
+}
+
+.stwitch-btn label {
+  width: 48px;
+  height: 48px;
+  border: 1px solid var(--bs-neutral-200);
+  background: transparent;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.mobile-nav-toggler {
+  display: none;
+}
+
+.navbab-wrapper .navbar {
+  height: 108px;
+  padding: 0;
+  z-index: 999;
+}
+.navbar-menu .navbar-nav .nav-item .nav-link:hover::after,
+.navbar-menu .navbar-nav .nav-item .nav-link.active::after {
+  content: "";
+  width: 55%;
+  height: 2px;
+  background: var(--bs-primary-500);
+  position: absolute;
+  bottom: 6px;
+  left: 0;
+}

@@ -1,0 +1,72 @@
+.font-56 {
+  color: var(--text-secondary-dark);
+}
+.intro-wrapper {
+  padding-top: 100px;
+}
+.hero-content h1 strong:nth-child(2) {
+  width: fit-content;
+}
+.hero-content h1 strong:nth-child(2)::after {
+  content: url(../../assets/images/hero_animation_1.svg);
+  display: inline-block;
+  height: 64px;
+  position: absolute;
+  top: -16px;
+  right: -44px;
+}
+.hero-content h1 strong:last-child {
+  width: fit-content;
+  padding-left: 48px;
+}
+.hero-content h1 strong:last-child::before {
+  content: url(../../assets/images//rocket.svg);
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+.quatation-form {
+  height: 557px;
+}
+.quate {
+  width: 484px;
+  height: 495px;
+  background: var(--bs-white);
+  border: 1px solid var(--bs-neutral-200);
+  box-shadow: 0px 40px 30px rgba(0, 0, 0, 0.1);
+  border-radius: 15px;
+  z-index: 1;
+  padding: 40px 62px 47px 62px;
+}
+
+.qoute-bg {
+  position: absolute;
+  bottom: 0px;
+  z-index: 0;
+}
+.quatation-form .btn {
+  min-width: 100%;
+  max-width: 100%;
+}
+
+.ellipseFade1 {
+  background: #ff5733;
+  height: 350px;
+  width: 350px;
+  filter: blur(130px);
+  opacity: 0.6;
+  position: absolute;
+  top: 130px;
+}
+
+.ellipseFade2 {
+  background: #2e42a626;
+  height: 250px;
+  width: 250px;
+  filter: blur(87px);
+  opacity: 0.7;
+  position: absolute;
+  top: 130px;
+  left: 0;
+}

@@ -1,0 +1,56 @@
+.newsletter-wrapper {
+  margin-top: 104px;
+}
+
+.newsletter-wrapper .container-fluid {
+  width: 1490px;
+  margin: 0 auto 115px auto;
+  height: 316px;
+  background: #242f65;
+  border-radius: 30px;
+}
+.newsletter .input-group .form-control {
+  border-radius: 4px !important;
+  width: 410px;
+}
+.newsletter .input-group .btn {
+  border-radius: 4px !important;
+}
+
+.anima_object_5 {
+  position: absolute;
+  top: 65px;
+  right: 125px;
+  transform-origin: top left;
+  animation: star 16s linear infinite;
+}
+@keyframes star {
+  from {
+    transform: scale(1) rotate(0deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+  to {
+    transform: scale(1) rotate(360deg) translate(-50%, -50%);
+    opacity: 1;
+  }
+}
+
+.anima_object_6 {
+  position: absolute;
+  bottom: 62px;
+  left: 65px;
+  animation: elements 10s linear infinite;
+}
+
+@keyframes elements {
+  0% {
+    transform: scale(1) rotate(0deg) translate(0px);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1) rotate(0deg) translate(100px);
+  }
+  100% {
+    transform: scale(1) rotate(0deg) translate(0px);
+  }
+}

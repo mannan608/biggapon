@@ -1,0 +1,49 @@
+.inner-page-wrapper {
+  height: 280px;
+  background-image: url("../../assets/images/breadcump.svg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin-bottom: 70px;
+  margin-top: -108px;
+}
+.breadcump {
+  padding-top: 144px;
+}
+
+.anima_object_7 {
+  position: absolute;
+  left: 50px;
+  bottom: 0px;
+  animation: anima_object_7 4s linear infinite;
+}
+@keyframes anima_object_7 {
+  0% {
+    transform: scale(1) translateY(20px);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1) translate(0px);
+  }
+  100% {
+    transform: scale(1) translateY(20px);
+  }
+}
+
+.anima_object_8 {
+  position: absolute;
+  right: 30px;
+  bottom: 30px;
+  animation: anima_object_8 4s linear infinite;
+}
+@keyframes anima_object_8 {
+  0% {
+    transform: scale(1) translate(0px);
+    opacity: 1;
+  }
+  50% {
+    transform: scale(1) translateY(20px);
+  }
+  100% {
+    transform: scale(1) translate(0px);
+  }
+}

@@ -1,0 +1,35 @@
+.work-wrapper {
+  margin-top: 104px;
+}
+.work-process .row {
+  margin: 0 -16px;
+}
+.work-process .row .col-lg-3 {
+  padding: 0 16px;
+}
+.work-process .row .audit {
+  background: #ffe4d1;
+}
+.work-process .row .growth {
+  background: #fff6d8;
+}
+.work-process .row .plan {
+  background: #ffe6ec;
+}
+.work-process .row .testing {
+  background: #e6e3ff;
+}
+
+.work-process .process {
+  width: 44px;
+  height: 44px;
+  border-radius: 50%;
+  position: relative;
+  margin-bottom: 24px;
+}
+.work-process .process h4 {
+  position: absolute;
+  right: -4px;
+  bottom: 0px;
+  font-weight: 500;
+}
