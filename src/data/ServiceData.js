@@ -36,7 +36,7 @@ const data = [
     service: "Sales & Brand oriented Content",
     icon: "images/content_cretor_icon.svg",
     shortdesc:
-      "Attention is a digital currency we make content to grab attention.",
+      "Attention is a digital currency we make content to grab your business attention.",
     link: "https://steadfast.com.bd/",
     image: "images/service_img_3.png",
     description:

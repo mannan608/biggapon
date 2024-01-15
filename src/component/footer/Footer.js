@@ -7,7 +7,7 @@ const Footer = () => {
     <div className="footer-wraper">
       <div className="container-fluid">
         <div className="footer">
-          <footer className="row row-cols-lg-4 row-cols-1 row-cols-md-2 py-5 border-top justify-content-between">
+          <footer className="row row-cols-lg-4 row-cols-1 row-cols-md-2 py-5 border-top justify-content-between ">
             <div className="col ">
               <div className="footer-logo mb-4">
                 <Link to="/">
@@ -24,22 +24,22 @@ const Footer = () => {
               <h5 className="mb-4">Company</h5>
               <ul className="d-flex flex-column gap-2">
                 <li className="item">
-                  <Link to="#" className="item-link">
+                  <Link to="/about" className="item-link">
                     About Us
                   </Link>
                 </li>
                 <li className="item">
-                  <Link to="#" className="item-link">
+                  <Link to="contacts" className="item-link">
                     Contact Us
                   </Link>
                 </li>
                 <li className="item ">
-                  <Link to="#" className="item-link">
+                  <Link to="/service" className="item-link">
                     Services
                   </Link>
                 </li>
                 <li className="item mb-2">
-                  <Link to="#" className="item-link">
+                  <Link to="termsconditions" className="item-link">
                     Terms and Conditions
                   </Link>
                 </li>
@@ -50,22 +50,22 @@ const Footer = () => {
               <h5 className="mb-4">Support</h5>
               <ul className="d-flex flex-column gap-2">
                 <li className="item ">
-                  <Link to="#" className="item-link ">
+                  <Link to="/faq" className="item-link ">
                     FAQ’s
                   </Link>
                 </li>
                 <li className="item ">
-                  <Link to="#" className="item-link ">
+                  <Link to="/contacts" className="item-link ">
                     Support center
                   </Link>
                 </li>
                 <li className="item ">
-                  <Link to="#" className="item-link ">
+                  <Link to="/security" className="item-link ">
                     Security
                   </Link>
                 </li>
                 <li className="item">
-                  <Link to="#" className="item-link ">
+                  <Link to="/blogs" className="item-link ">
                     Blog
                   </Link>
                 </li>

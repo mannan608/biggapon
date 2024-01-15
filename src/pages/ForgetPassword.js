@@ -22,7 +22,7 @@ const ForgetPassword = () => {
               </div>
 
               <div className="w-25">
-                <button className="btn btn-primary btn-md">Login</button>
+                <button className="btn btn-primary btn-md">Send</button>
               </div>
             </div>
           </form>

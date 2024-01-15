@@ -14,6 +14,7 @@
 }
 .pricing .row {
   margin: 0 -16px;
+  row-gap: 32px;
 }
 .pricing .row .col-lg-4 {
   padding: 0 16px;

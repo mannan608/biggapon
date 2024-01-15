@@ -5,7 +5,7 @@ const ServiceCard = ({ data }) => {
   const { service, icon, shortdesc, link } = data;
   return (
     <>
-      <div class="col-lg-4 col-sm-6">
+      <div class="col-lg-4 col-md-6">
         <div class="card ">
           <div className="card-body">
             <img src={icon} alt={service} />

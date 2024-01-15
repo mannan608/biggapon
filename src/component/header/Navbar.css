@@ -1,3 +1,21 @@
+.navbab-wrapper.active {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #ffffff;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+  z-index: 999;
+  transition: 0.4s ease-in-out;
+}
+.navbab-wrapper .navbar {
+  height: 108px;
+  padding: 0;
+  z-index: 999;
+}
+.mobile-nav-toggler {
+  display: none;
+}
+
 .navbar-menu .navbar-nav .nav-item .nav-link:hover,
 .navbar-menu .navbar-nav .nav-item .nav-link.active {
   position: relative;
@@ -20,15 +38,6 @@
   cursor: pointer;
 }
 
-.mobile-nav-toggler {
-  display: none;
-}
-
-.navbab-wrapper .navbar {
-  height: 108px;
-  padding: 0;
-  z-index: 999;
-}
 .navbar-menu .navbar-nav .nav-item .nav-link:hover::after,
 .navbar-menu .navbar-nav .nav-item .nav-link.active::after {
   content: "";

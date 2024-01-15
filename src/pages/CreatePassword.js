@@ -28,7 +28,7 @@ const CreatePassword = () => {
               />
               <img src={Password} alt="Password" className="form-fiel-icon" />
             </div>
-            <button className="btn btn-primary btn-md mt-3">Login</button>
+            <button className="btn btn-primary btn-md mt-3">Create</button>
           </form>
         </div>
       </div>

@@ -713,15 +713,15 @@ form .mb-3 {
 }
 
 .accordion-button::after {
-  /* background-image: url(../images/accrodin_plus.svg); */
+  background-image: url("./assets/images/plus.svg");
   background-size: 24px;
   width: 24px;
   height: 24px;
 }
 
-/* .accordion-button:not(.collapsed)::after {
-  background-image: url(../images/accrodin_minus.svg);
-} */
+.accordion-button:not(.collapsed)::after {
+  background-image: url("./assets/images/minus.svg");
+}
 
 .accordion {
   display: flex;

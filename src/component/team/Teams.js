@@ -6,7 +6,7 @@ const Teams = ({ team }) => {
   const { id, Name, designation, image, sociallink } = team;
   return (
     <>
-      <div className="col-lg-4 col-md-2">
+      <div className="col-lg-4">
         <div className="card align-items-center justify-content-center flex-column gap-2">
           <div
             className={

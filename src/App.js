@@ -13,6 +13,9 @@ import ForgetPassword from "./pages/ForgetPassword";
 import OtpInputWithValidation from "./pages/OtpInputWithValidation";
 import CreatePassword from "./pages/CreatePassword";
 import Footer from "./component/footer/Footer";
+import Faq from "./pages/Faq";
+import TermsConditions from "./pages/TermsConditions";
+import Security from "./pages/Security";
 
 function App() {
   return (
@@ -33,6 +36,9 @@ function App() {
           element={<OtpInputWithValidation />}
         />
         <Route path="/createpassword" element={<CreatePassword />} />
+        <Route path="/faq" element={<Faq />} />
+        <Route path="/termsconditions" element={<TermsConditions />} />
+        <Route path="/security" element={<Security />} />
       </Routes>
       <Footer />
     </div>
